@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-10T16:38:29 IST" name="Default suite" finished-at="2024-12-10T16:38:37 IST" duration-ms="8175">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFile.TestNGRunnerFile@79079097]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-12-10T16:38:29 IST" name="Default test" finished-at="2024-12-10T16:38:37 IST" duration-ms="8175">
+      <class name="RunnerFile.TestNGRunnerFile">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerFile.TestNGRunnerFile@79079097]" started-at="2024-12-10T16:38:29 IST" name="setUpClass" finished-at="2024-12-10T16:38:30 IST" duration-ms="445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@312a738d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFile.TestNGRunnerFile@79079097]" started-at="2024-12-10T16:38:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-10T16:38:34 IST" duration-ms="4353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new Booking by adding BookingData"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating RestFullBooker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFile.TestNGRunnerFile@79079097]" started-at="2024-12-10T16:38:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-10T16:38:35 IST" duration-ms="1083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get Booking data as a User"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating RestFullBooker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFile.TestNGRunnerFile@79079097]" started-at="2024-12-10T16:38:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-10T16:38:36 IST" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Updating the UserData by PATCH"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating RestFullBooker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFile.TestNGRunnerFile@79079097]" started-at="2024-12-10T16:38:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-10T16:38:37 IST" duration-ms="1085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete Booking Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating RestFullBooker API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerFile.TestNGRunnerFile@79079097]" started-at="2024-12-10T16:38:37 IST" name="tearDownClass" finished-at="2024-12-10T16:38:37 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunnerFile.TestNGRunnerFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
